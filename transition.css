@@ -3,8 +3,15 @@
     height: 100px;
     border: 2px solid tomato;
     background-color: peachpuff;
+    /* property name | duration | easing function | delay */
+    /* transition: width 5s linear 3s, backgroud-color 5s ease-in 2s; */
+    transition: transform 3s;
 }
 
 .box:hover {
-    width: 400px;
+    /* width: 400px;
+    background-color: rgb(177, 209, 210); */
+    transform: rotate(45deg)scale(1.5) translateX(150px);
+
 }
+
